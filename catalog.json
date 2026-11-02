@@ -125,7 +125,17 @@
       "triangles": 496514,
       "format": "slab1",
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/21f343d6786e686b749ddfd76d3c51720dab93bc0c322b1ad072279ac4a08045.slab"
+    },
+    {
+      "id": "2f895a947da4942cb047",
+      "name": "smile_nude",
+      "tier": "original",
+      "sha256": "8ffadd00aff6bf99095d8d3465774013aeef4f31f380d27bbbf807f3c23aa6a7",
+      "bytes": 12537576,
+      "triangles": 313942,
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/8ffadd00aff6bf99095d8d3465774013aeef4f31f380d27bbbf807f3c23aa6a7.slab"
     }
   ],
-  "updated": 1793648244
+  "updated": 1793648254
 }
