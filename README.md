@@ -8,3 +8,9 @@
 - Formation of phi Molecular Orbitals，由 Vera4art 创作，[原作](https://sketchfab.com/3d-models/formation-of-phi-molecular-orbitals-5f57d18ef46a4bb885f27df32f05e608)。Quest 将四组示意中的输入与产物分别提取，保留原作颜色，用于接触组合演示。
 
 两项原作均采用 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)。杂化轨道方向示意由项目另行绘制。
+
+## 上传与自动更新
+
+教师扩展的「上传模型到模型库」可以发布一个自包含文件，选择低、中、高中的一个或多个档位。同名同档更新会沿用目录条目。把模型手动提交到 main 分支也会触发转换，默认生成三档。支持 GLB、内嵌资源的 glTF、FBX、OBJ、STL、PLY 和 DAE。需要材质和外部贴图时，推荐先打包为 GLB。
+
+转换在 GitHub Actions 中进行。当前面数上限暂定 15,000、40,000 和 75,000 个三角形，贴图最长边分别为 1024、2048 和 4096。成功后更新 catalog.json，Quest 打开「特殊物品 → 云端模型库」会检查更新，持续打开时每分钟复查。模型需由学生点选下载。模型卡片右下角的垃圾桶仅删除该档的本地缓存。
