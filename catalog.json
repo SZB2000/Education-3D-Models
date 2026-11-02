@@ -10,7 +10,27 @@
       "triangles": 25000,
       "format": "slab1",
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/bfc50dd971c6bc0ea7cd69820db5fd13d841fb243abafe3f850d10d49b53672a.slab"
+    },
+    {
+      "id": "9b480bb46bf5d2ec0774",
+      "name": "erotic_blondie",
+      "tier": "medium",
+      "sha256": "129370149ec3949d3f585c3dd560389bbec1fa9acfa0e065d67b6bfd6cb56eb3",
+      "bytes": 1096148,
+      "triangles": 39194,
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/129370149ec3949d3f585c3dd560389bbec1fa9acfa0e065d67b6bfd6cb56eb3.slab"
+    },
+    {
+      "id": "069be80a3c98049730b4",
+      "name": "erotic_blondie",
+      "tier": "original",
+      "sha256": "7de15e7b05a1eeed3b956accc5526716f6afeb7859811a9dfb5da9643a94f796",
+      "bytes": 11330620,
+      "triangles": 365155,
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/7de15e7b05a1eeed3b956accc5526716f6afeb7859811a9dfb5da9643a94f796.slab"
     }
   ],
-  "updated": 1793642922
+  "updated": 1793643708
 }
