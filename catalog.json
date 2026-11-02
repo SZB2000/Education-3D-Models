@@ -2,6 +2,13 @@
   "version": 1,
   "models": [
     {
+      "id": "sketchfab-a9ad51cbf4ce4ca0a9ed63a9ba1e2200",
+      "kind": "sketchfab",
+      "uid": "a9ad51cbf4ce4ca0a9ed63a9ba1e2200",
+      "name": "S00024 Realistic Female Character Pose",
+      "author": "stonks3d"
+    },
+    {
       "id": "sketchfab-1e7459a7c6b54bf6b27225f688dd283e",
       "kind": "sketchfab",
       "uid": "1e7459a7c6b54bf6b27225f688dd283e",
@@ -70,5 +77,5 @@
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/09bfc7e08d3b2bffe4bc3bbcb60331f9c048f9f6aa46d46cad9b97dea84cff57.slab"
     }
   ],
-  "updated": 1793646598
+  "updated": 1793647459
 }
