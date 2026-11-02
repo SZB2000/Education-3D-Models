@@ -205,7 +205,17 @@
       "triangles": 1946574,
       "format": "slab1",
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/b87b09fe4b87b633cdc01c7c34198edfb38b4b1590f4e891b3611977a987ff99.slab"
+    },
+    {
+      "id": "ecb53f90fabc97a6821f",
+      "name": "jasmine_senual",
+      "tier": "original",
+      "sha256": "07f2b771329ab76a10cd4c3ecacef371a43c2edd769197f55c82782ef37f1232",
+      "bytes": 30715468,
+      "triangles": 360273,
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/07f2b771329ab76a10cd4c3ecacef371a43c2edd769197f55c82782ef37f1232.slab"
     }
   ],
-  "updated": 1793649103
+  "updated": 1793649117
 }
