@@ -2,6 +2,13 @@
   "version": 1,
   "models": [
     {
+      "id": "sketchfab-1e7459a7c6b54bf6b27225f688dd283e",
+      "kind": "sketchfab",
+      "uid": "1e7459a7c6b54bf6b27225f688dd283e",
+      "name": "Ariel",
+      "author": "Stuart"
+    },
+    {
       "id": "sketchfab-924e1bb0935d4a098da37ece6bf19fa0",
       "kind": "sketchfab",
       "uid": "924e1bb0935d4a098da37ece6bf19fa0",
@@ -63,5 +70,5 @@
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/09bfc7e08d3b2bffe4bc3bbcb60331f9c048f9f6aa46d46cad9b97dea84cff57.slab"
     }
   ],
-  "updated": 1793646423
+  "updated": 1793646598
 }
