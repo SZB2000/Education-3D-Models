@@ -1,1 +1,33 @@
-{"version":1,"models":[]}
+{
+  "version": 1,
+  "models": [
+    {
+      "id": "111f8c44c17978568650",
+      "name": "SuperLab-Conversion-Check",
+      "tier": "low",
+      "sha256": "dcc498ed783ee92a48946bb19ed960ee1558cedbedb998408f26bac59236180f",
+      "triangles": 4,
+      "bytes": 940,
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/dcc498ed783ee92a48946bb19ed960ee1558cedbedb998408f26bac59236180f.glb"
+    },
+    {
+      "id": "fff154c4c5e235672f79",
+      "name": "SuperLab-Conversion-Check",
+      "tier": "medium",
+      "sha256": "dcc498ed783ee92a48946bb19ed960ee1558cedbedb998408f26bac59236180f",
+      "triangles": 4,
+      "bytes": 940,
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/dcc498ed783ee92a48946bb19ed960ee1558cedbedb998408f26bac59236180f.glb"
+    },
+    {
+      "id": "15a238aaa02265fd8a53",
+      "name": "SuperLab-Conversion-Check",
+      "tier": "high",
+      "sha256": "dcc498ed783ee92a48946bb19ed960ee1558cedbedb998408f26bac59236180f",
+      "triangles": 4,
+      "bytes": 940,
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/dcc498ed783ee92a48946bb19ed960ee1558cedbedb998408f26bac59236180f.glb"
+    }
+  ],
+  "updated": 1793636048
+}
