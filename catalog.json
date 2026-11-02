@@ -185,7 +185,17 @@
       "triangles": 993294,
       "format": "slab1",
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/728acfb386958523496d1f0605687365f0bd42091667586c606b046d166b1bfb.slab"
+    },
+    {
+      "id": "9179550b7297c8ab0137",
+      "name": "sexy_redhead_jumping_woman",
+      "tier": "original",
+      "sha256": "e13fd6e861cc0bc300a87735f5f9981fa0e3d6a1a188535b8f683c8d5f128dce",
+      "bytes": 29297048,
+      "triangles": 247950,
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/e13fd6e861cc0bc300a87735f5f9981fa0e3d6a1a188535b8f683c8d5f128dce.slab"
     }
   ],
-  "updated": 1793649057
+  "updated": 1793649073
 }
