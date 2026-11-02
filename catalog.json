@@ -150,11 +150,11 @@
       "id": "5ba4c481de7c15faa41f",
       "name": "daphne_sexy",
       "tier": "original",
-      "sha256": "4d31f18bd5ac478a656bd52b16050405cc6b90139aa83f2e2aa2d05843364e85",
-      "bytes": 16713192,
-      "triangles": 248690,
+      "sha256": "3c36ab935931d1548ddb68a6f2831fdced2071a6e838c6f78793b6b717b8ec72",
+      "bytes": 39705384,
+      "triangles": 466673,
       "format": "slab1",
-      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/4d31f18bd5ac478a656bd52b16050405cc6b90139aa83f2e2aa2d05843364e85.slab"
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/3c36ab935931d1548ddb68a6f2831fdced2071a6e838c6f78793b6b717b8ec72.slab"
     },
     {
       "id": "cb2fabf6310f6e298c05",
@@ -217,5 +217,5 @@
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/07f2b771329ab76a10cd4c3ecacef371a43c2edd769197f55c82782ef37f1232.slab"
     }
   ],
-  "updated": 1793649117
+  "updated": 1793649132
 }
