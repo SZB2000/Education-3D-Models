@@ -2,6 +2,13 @@
   "version": 1,
   "models": [
     {
+      "id": "sketchfab-49abebfdbae346c3aa4c83c843305532",
+      "kind": "sketchfab",
+      "uid": "49abebfdbae346c3aa4c83c843305532",
+      "name": "Girl Body Scan Studio 6",
+      "author": "studioscans"
+    },
+    {
       "id": "sketchfab-6d8e025682ac4b348ae75f97f2f34307",
       "kind": "sketchfab",
       "uid": "6d8e025682ac4b348ae75f97f2f34307",
@@ -49,5 +56,5 @@
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/09bfc7e08d3b2bffe4bc3bbcb60331f9c048f9f6aa46d46cad9b97dea84cff57.slab"
     }
   ],
-  "updated": 1793646236
+  "updated": 1793646270
 }
