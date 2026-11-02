@@ -145,7 +145,17 @@
       "triangles": 141500,
       "format": "slab1",
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/2c4ca8241f1b4b5a80f64fe11f228ecbc6bef3ff94267aa4feb08c5ccab886e6.slab"
+    },
+    {
+      "id": "5ba4c481de7c15faa41f",
+      "name": "daphne_sexy",
+      "tier": "original",
+      "sha256": "4d31f18bd5ac478a656bd52b16050405cc6b90139aa83f2e2aa2d05843364e85",
+      "bytes": 16713192,
+      "triangles": 248690,
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/4d31f18bd5ac478a656bd52b16050405cc6b90139aa83f2e2aa2d05843364e85.slab"
     }
   ],
-  "updated": 1793648365
+  "updated": 1793648382
 }
