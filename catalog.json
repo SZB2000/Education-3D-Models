@@ -215,7 +215,17 @@
       "triangles": 360273,
       "format": "slab1",
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/07f2b771329ab76a10cd4c3ecacef371a43c2edd769197f55c82782ef37f1232.slab"
+    },
+    {
+      "id": "9dd4c9dceb2840c693b1",
+      "name": "blonde_sexy",
+      "tier": "original",
+      "sha256": "6dc98f659d5c7f4158cbdf17a569a582edf2f68e4b3548038817fcb157a15a34",
+      "bytes": 39027784,
+      "triangles": 373579,
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/6dc98f659d5c7f4158cbdf17a569a582edf2f68e4b3548038817fcb157a15a34.slab"
     }
   ],
-  "updated": 1793649132
+  "updated": 1793649149
 }
