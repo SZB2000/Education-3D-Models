@@ -18,9 +18,27 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: {fetch-depth: 0, persist-credentials: false}
+      - name: Restore conversion tool packages
+        if: ${{ !(inputs.tiers == 'original' && inputs.source_ext == 'glb') }}
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/superlab-debs/*.deb
+          key: ubuntu24-x64-blender-gltfpack-numpy-v1
       - name: Install conversion tools
         if: ${{ !(inputs.tiers == 'original' && inputs.source_ext == 'glb') }}
-        run: sudo apt-get update -qq && sudo apt-get install -y blender gltfpack python3-numpy
+        shell: bash
+        run: |
+          set -euo pipefail
+          dir="$HOME/.cache/superlab-debs"
+          mkdir -p "$dir"
+          shopt -s nullglob
+          packages=("$dir"/*.deb)
+          if (( ${#packages[@]} )) && sudo apt-get install -y --no-download "${packages[@]}" && command -v blender && command -v gltfpack && /usr/bin/python3 -c 'import numpy'; then
+            exit 0
+          fi
+          sudo apt-get -o Acquire::Retries=2 update -qq
+          sudo apt-get -o Dir::Cache::archives="$dir" --download-only install -y blender gltfpack python3-numpy
+          sudo apt-get -o Dir::Cache::archives="$dir" -o APT::Keep-Downloaded-Packages=true install -y blender gltfpack python3-numpy
       - run: python3 tools/catalog_builder.py convert
         env:
           SOURCE_ID: ${{ inputs.source_id }}
