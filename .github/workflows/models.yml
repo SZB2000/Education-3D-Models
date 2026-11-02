@@ -16,7 +16,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: {fetch-depth: 0, persist-credentials: false}
-      - run: sudo apt-get update -qq && sudo apt-get install -y blender gltfpack
+      - run: sudo apt-get update -qq && sudo apt-get install -y blender gltfpack python3-numpy
       - run: python3 tools/catalog_builder.py convert
         env:
           SOURCE_ID: ${{ inputs.source_id }}
@@ -39,3 +39,4 @@ jobs:
       - run: python3 tools/catalog_builder.py publish
         env:
           GH_TOKEN: ${{ github.token }}
+

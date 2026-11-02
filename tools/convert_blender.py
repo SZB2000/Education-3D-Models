@@ -1,5 +1,6 @@
 # Blender 3.6+ background import; one self-contained model per input file.
 import bpy,sys,pathlib
+if sys.platform=="linux":sys.path.append("/usr/lib/python3/dist-packages")
 src,dst,max_px=sys.argv[sys.argv.index('--')+1:];src=pathlib.Path(src);max_px=int(max_px)
 bpy.ops.wm.read_factory_settings(use_empty=True)
 ext=src.suffix.lower()
