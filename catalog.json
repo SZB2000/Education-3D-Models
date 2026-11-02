@@ -235,7 +235,17 @@
       "triangles": 598754,
       "format": "slab1",
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/6e0e9e436ce16b6792dbeb64338001c39a8ebdd96f3ab80b7eac01a01f473188.slab"
+    },
+    {
+      "id": "f0f9aeaff12ad6710cf7",
+      "name": "miss_blue_eyes",
+      "tier": "original",
+      "sha256": "14809bc8aab972859e355473e9f34ebf9ea2287cb6ae0835f5fbbb55669aa429",
+      "bytes": 32249772,
+      "triangles": 957199,
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/14809bc8aab972859e355473e9f34ebf9ea2287cb6ae0835f5fbbb55669aa429.slab"
     }
   ],
-  "updated": 1793649172
+  "updated": 1793649189
 }
