@@ -85,7 +85,17 @@
       "triangles": 142524,
       "format": "slab1",
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/de842c87ab0319a29b8eada74886063d1f20c9fd494754efd322780ac21bf9a2.slab"
+    },
+    {
+      "id": "f81047695c082ce00c2e",
+      "name": "clair_nude",
+      "tier": "original",
+      "sha256": "902ba8e98c6717e2e4893ae2b4a6c0e514734af5550178cc79743bdcb48064fa",
+      "bytes": 42915284,
+      "triangles": 114076,
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/902ba8e98c6717e2e4893ae2b4a6c0e514734af5550178cc79743bdcb48064fa.slab"
     }
   ],
-  "updated": 1793647479
+  "updated": 1793647771
 }
