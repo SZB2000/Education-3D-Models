@@ -5,10 +5,11 @@
       "id": "3af3120e8ca4c1786237",
       "name": "GB",
       "tier": "original",
-      "sha256": "798b5a55a71e55ab9cb08087668ae47cb848fd82663eddac130d37d625f3ff2e",
+      "sha256": "bfc50dd971c6bc0ea7cd69820db5fd13d841fb243abafe3f850d10d49b53672a",
+      "bytes": 12209912,
       "triangles": 25000,
-      "bytes": 12209876,
-      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/798b5a55a71e55ab9cb08087668ae47cb848fd82663eddac130d37d625f3ff2e.glb"
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/bfc50dd971c6bc0ea7cd69820db5fd13d841fb243abafe3f850d10d49b53672a.slab"
     },
     {
       "id": "459e7f33b3ba89145b76",
@@ -31,5 +32,5 @@
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/5a1583be1acc3a34079af2299e2f57eccae1f15752480ffae726e82347eda00b.slab"
     }
   ],
-  "updated": 1793642724
+  "updated": 1793642766
 }
