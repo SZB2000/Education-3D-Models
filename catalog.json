@@ -175,7 +175,17 @@
       "triangles": 615116,
       "format": "slab1",
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/2cd624da6f6d63b907c35022f61180f088e09ada3ba7157edd30f2aacccb3392.slab"
+    },
+    {
+      "id": "c3c67bf139108cb270a6",
+      "name": "nude_female_police",
+      "tier": "original",
+      "sha256": "728acfb386958523496d1f0605687365f0bd42091667586c606b046d166b1bfb",
+      "bytes": 32673684,
+      "triangles": 993294,
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/728acfb386958523496d1f0605687365f0bd42091667586c606b046d166b1bfb.slab"
     }
   ],
-  "updated": 1793648582
+  "updated": 1793649057
 }
