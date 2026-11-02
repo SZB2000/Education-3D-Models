@@ -1,4 +1,4 @@
-import os,sys,json,pathlib,urllib.request,urllib.parse,urllib.error,subprocess,hashlib,tempfile,re,math,time
+import shutil,os,sys,json,pathlib,urllib.request,urllib.parse,urllib.error,subprocess,hashlib,tempfile,re,math,time
 R='SZB2000/Education-3D-Models'
 API='https://api.github.com/repos/'+R
 T={'low':(15000,1024),'medium':(40000,2048),'high':(75000,4096)}
@@ -10,23 +10,41 @@ def request(url,data=None,method=None):
 def triangles(file):
  with open(file,'rb') as f:
   h=f.read(20);doc=json.loads(f.read(int.from_bytes(h[12:16],'little')))
- counts=[sum(doc['accessors'][p.get('indices',p['attributes']['POSITION'])]['count']//3 for p in m['primitives'] if p.get('mode',4)==4) for m in doc.get('meshes',[])]
- return sum(counts[n['mesh']] for n in doc['nodes'] if 'mesh' in n)
+ if any(x.get('uri') and not x['uri'].startswith('data:') for x in doc.get('buffers',[])+doc.get('images',[])):
+  raise ValueError('The uploaded model must include all buffers and textures')
+ def primitive_count(p):
+  count=doc['accessors'][p.get('indices',p['attributes']['POSITION'])]['count'];mode=p.get('mode',4)
+  return count//3 if mode==4 else (max(0,count-2) if mode in (5,6) else 0)
+ counts=[sum(primitive_count(p) for p in m['primitives']) for m in doc.get('meshes',[])]
+ def instances(n):
+  attrs=n.get('extensions',{}).get('EXT_mesh_gpu_instancing',{}).get('attributes',{})
+  return doc['accessors'][next(iter(attrs.values()))]['count'] if attrs else 1
+ return sum(counts[n['mesh']]*instances(n) for n in doc['nodes'] if 'mesh' in n)
 def convert(src,name,tiers,out):
  src=pathlib.Path(src); out=pathlib.Path(out);out.mkdir(exist_ok=True)
  records=[]
  with tempfile.TemporaryDirectory() as tmp:
   for tier in tiers:
-   cap,px=T[tier];base=pathlib.Path(tmp)/'base.glb'
-   subprocess.run([os.getenv('BLENDER','blender'),'-b','--factory-startup','--disable-autoexec','--python-exit-code','1','--python',str(pathlib.Path(__file__).with_name('convert_blender.py')),'--',str(src.resolve()),str(base),str(px)],check=True,timeout=600)
-   count=triangles(base);target=out/(tier+'.glb')
-   if not count:raise ValueError('No triangles')
-   for attempt in range(3):
-    ratio=min(1.,cap/count*(.98,.82,.55)[attempt])
-    subprocess.run([os.getenv('GLTFPACK','gltfpack'),'-i',str(base),'-o',str(target),'-noq','-kn','-km','-ac','-af','0','-si',str(ratio),'-sa'],check=True,timeout=300)
+   if tier not in (*T,'original'):raise ValueError('Unknown tier')
+   target=out/(tier+'.glb')
+   if tier=='original' and src.suffix.lower()=='.glb':
+    shutil.copyfile(src,target)
     actual=triangles(target)
-    if 0<actual<=cap:break
-   else:raise ValueError('Cannot meet requested triangle budget')
+   else:
+    cap,px=T.get(tier,(None,0));base=pathlib.Path(tmp)/'base.glb'
+    subprocess.run([os.getenv('BLENDER','blender'),'-b','--factory-startup','--disable-autoexec','--python-exit-code','1','--python',str(pathlib.Path(__file__).with_name('convert_blender.py')),'--',str(src.resolve()),str(base),str(px)],check=True,timeout=600)
+    count=triangles(base)
+    if not count:raise ValueError('No triangles')
+    if tier=='original':
+     shutil.copyfile(base,target);actual=count
+    else:
+     for attempt in range(3):
+      ratio=min(1.,cap/count*(.98,.82,.55)[attempt])
+      subprocess.run([os.getenv('GLTFPACK','gltfpack'),'-i',str(base),'-o',str(target),'-noq','-kn','-km','-ac','-af','0','-si',str(ratio),'-sa'],check=True,timeout=300)
+      actual=triangles(target)
+      if 0<actual<=cap:break
+     else:raise ValueError('Cannot meet requested triangle budget')
+   if actual<=0 or target.stat().st_size>200*1024**2:raise ValueError('Model must contain triangles and fit the 200 MiB download limit')
    digest=hashlib.sha256(target.read_bytes()).hexdigest()
    records.append(dict(id=hashlib.sha256((name.casefold()+':'+tier).encode()).hexdigest()[:20],name=name[:64],tier=tier,sha256=digest,triangles=actual,bytes=target.stat().st_size))
  (out/'records.json').write_text(json.dumps(records),encoding='utf8')

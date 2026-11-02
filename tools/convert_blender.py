@@ -16,6 +16,6 @@ for img in bpy.data.images:
  if img.source!='FILE':continue
  w,h=img.size
  if not w or not h:raise ValueError('Missing texture: '+img.name)
- if max(w,h)>max_px:
+ if max_px and max(w,h)>max_px:
   k=max_px/max(w,h);img.scale(max(1,round(w*k)),max(1,round(h*k)));img.pack()
 bpy.ops.export_scene.gltf(filepath=dst,export_format='GLB',export_animations=True)
