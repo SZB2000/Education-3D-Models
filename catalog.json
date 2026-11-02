@@ -135,7 +135,17 @@
       "triangles": 313942,
       "format": "slab1",
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/8ffadd00aff6bf99095d8d3465774013aeef4f31f380d27bbbf807f3c23aa6a7.slab"
+    },
+    {
+      "id": "33b9a2ec0565023de85b",
+      "name": "woman_standing_v36",
+      "tier": "original",
+      "sha256": "2c4ca8241f1b4b5a80f64fe11f228ecbc6bef3ff94267aa4feb08c5ccab886e6",
+      "bytes": 18242356,
+      "triangles": 141500,
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/2c4ca8241f1b4b5a80f64fe11f228ecbc6bef3ff94267aa4feb08c5ccab886e6.slab"
     }
   ],
-  "updated": 1793648254
+  "updated": 1793648365
 }
