@@ -225,7 +225,17 @@
       "triangles": 373579,
       "format": "slab1",
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/6dc98f659d5c7f4158cbdf17a569a582edf2f68e4b3548038817fcb157a15a34.slab"
+    },
+    {
+      "id": "23aee3aea749a0b669e9",
+      "name": "sexy_laundry_girl",
+      "tier": "original",
+      "sha256": "6e0e9e436ce16b6792dbeb64338001c39a8ebdd96f3ab80b7eac01a01f473188",
+      "bytes": 38229120,
+      "triangles": 598754,
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/6e0e9e436ce16b6792dbeb64338001c39a8ebdd96f3ab80b7eac01a01f473188.slab"
     }
   ],
-  "updated": 1793649149
+  "updated": 1793649172
 }
