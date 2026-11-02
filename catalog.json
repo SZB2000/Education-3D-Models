@@ -10,27 +10,7 @@
       "triangles": 25000,
       "format": "slab1",
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/bfc50dd971c6bc0ea7cd69820db5fd13d841fb243abafe3f850d10d49b53672a.slab"
-    },
-    {
-      "id": "459e7f33b3ba89145b76",
-      "name": "SuperLab-Seal-Verification-0718",
-      "tier": "low",
-      "sha256": "a0abaf8e7e4c7c0f6838276408f1484e831b48c7f2891a992e46b78f16f4ed3f",
-      "bytes": 1140,
-      "triangles": 4,
-      "format": "slab1",
-      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/a0abaf8e7e4c7c0f6838276408f1484e831b48c7f2891a992e46b78f16f4ed3f.slab"
-    },
-    {
-      "id": "aba4607841c919a4889d",
-      "name": "SuperLab-Seal-Verification-0718",
-      "tier": "original",
-      "sha256": "5a1583be1acc3a34079af2299e2f57eccae1f15752480ffae726e82347eda00b",
-      "bytes": 1100,
-      "triangles": 4,
-      "format": "slab1",
-      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/5a1583be1acc3a34079af2299e2f57eccae1f15752480ffae726e82347eda00b.slab"
     }
   ],
-  "updated": 1793642766
+  "updated": 1793642922
 }
