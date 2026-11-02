@@ -115,7 +115,17 @@
       "triangles": 49682,
       "format": "slab1",
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/3f08a51214aadfdfa32fc8c49a1103db865a8aee5c56d5e5b365e272827e936b.slab"
+    },
+    {
+      "id": "d9b3841334ad7dd03a51",
+      "name": "aigirl",
+      "tier": "original",
+      "sha256": "21f343d6786e686b749ddfd76d3c51720dab93bc0c322b1ad072279ac4a08045",
+      "bytes": 48034688,
+      "triangles": 496514,
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/21f343d6786e686b749ddfd76d3c51720dab93bc0c322b1ad072279ac4a08045.slab"
     }
   ],
-  "updated": 1793647943
+  "updated": 1793648244
 }
