@@ -105,7 +105,17 @@
       "triangles": 45868,
       "format": "slab1",
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/4f454bfef0796f154aaedcf022a77e21190c04fb453ed7bc1a4eafced8def766.slab"
+    },
+    {
+      "id": "cbd3bae431758041444b",
+      "name": "sexy_beach_bikini_asian_woman",
+      "tier": "original",
+      "sha256": "3f08a51214aadfdfa32fc8c49a1103db865a8aee5c56d5e5b365e272827e936b",
+      "bytes": 4537112,
+      "triangles": 49682,
+      "format": "slab1",
+      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/3f08a51214aadfdfa32fc8c49a1103db865a8aee5c56d5e5b365e272827e936b.slab"
     }
   ],
-  "updated": 1793647795
+  "updated": 1793647943
 }
