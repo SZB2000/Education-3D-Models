@@ -1,7 +1,9 @@
 name: Build classroom models
+run-name: ${{ inputs.source_id && format('Model upload {0}', inputs.source_id) || 'Build committed models' }}
 on:
   workflow_dispatch:
     inputs:
+      source_ext: {required: false, type: string}
       source_id: {required: true, type: string}
       model_name: {required: true, type: string}
       tiers: {required: true, type: string}
@@ -16,7 +18,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with: {fetch-depth: 0, persist-credentials: false}
-      - run: sudo apt-get update -qq && sudo apt-get install -y blender gltfpack python3-numpy
+      - name: Install conversion tools
+        if: ${{ !(inputs.tiers == 'original' && inputs.source_ext == 'glb') }}
+        run: sudo apt-get update -qq && sudo apt-get install -y blender gltfpack python3-numpy
       - run: python3 tools/catalog_builder.py convert
         env:
           SOURCE_ID: ${{ inputs.source_id }}
