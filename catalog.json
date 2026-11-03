@@ -2,41 +2,6 @@
   "version": 1,
   "models": [
     {
-      "id": "sketchfab-a9ad51cbf4ce4ca0a9ed63a9ba1e2200",
-      "kind": "sketchfab",
-      "uid": "a9ad51cbf4ce4ca0a9ed63a9ba1e2200",
-      "name": "S00024 Realistic Female Character Pose",
-      "author": "stonks3d"
-    },
-    {
-      "id": "sketchfab-1e7459a7c6b54bf6b27225f688dd283e",
-      "kind": "sketchfab",
-      "uid": "1e7459a7c6b54bf6b27225f688dd283e",
-      "name": "Ariel",
-      "author": "Stuart"
-    },
-    {
-      "id": "sketchfab-924e1bb0935d4a098da37ece6bf19fa0",
-      "kind": "sketchfab",
-      "uid": "924e1bb0935d4a098da37ece6bf19fa0",
-      "name": "Girl Scan Studio 2",
-      "author": "stars4dream"
-    },
-    {
-      "id": "sketchfab-49abebfdbae346c3aa4c83c843305532",
-      "kind": "sketchfab",
-      "uid": "49abebfdbae346c3aa4c83c843305532",
-      "name": "Girl Body Scan Studio 6",
-      "author": "studioscans"
-    },
-    {
-      "id": "sketchfab-6d8e025682ac4b348ae75f97f2f34307",
-      "kind": "sketchfab",
-      "uid": "6d8e025682ac4b348ae75f97f2f34307",
-      "name": "3XD - Girl relaxing on floor",
-      "author": "xxxdimension"
-    },
-    {
       "id": "3af3120e8ca4c1786237",
       "name": "GB",
       "tier": "original",
@@ -247,5 +212,5 @@
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/14809bc8aab972859e355473e9f34ebf9ea2287cb6ae0835f5fbbb55669aa429.slab"
     }
   ],
-  "updated": 1793649189
+  "updated": 1793678174
 }
