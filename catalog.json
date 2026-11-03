@@ -23,7 +23,7 @@
     },
     {
       "id": "accc7820dde9dccd223c",
-      "name": "test-03",
+      "name": "open legs",
       "tier": "original",
       "sha256": "24007a9dacb46d23acb40f48c5f6ac74a96b534585b6dc2399f7b776983718bb",
       "bytes": 12261544,
@@ -162,5 +162,5 @@
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/14809bc8aab972859e355473e9f34ebf9ea2287cb6ae0835f5fbbb55669aa429.slab"
     }
   ],
-  "updated": 1793714813
+  "updated": 1793714869
 }
