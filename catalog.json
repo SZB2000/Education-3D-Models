@@ -162,16 +162,6 @@
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/e13fd6e861cc0bc300a87735f5f9981fa0e3d6a1a188535b8f683c8d5f128dce.slab"
     },
     {
-      "id": "2ebce369f2aaffc487b9",
-      "name": "chun_li_sexyy",
-      "tier": "original",
-      "sha256": "b87b09fe4b87b633cdc01c7c34198edfb38b4b1590f4e891b3611977a987ff99",
-      "bytes": 127498356,
-      "triangles": 1946574,
-      "format": "slab1",
-      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/b87b09fe4b87b633cdc01c7c34198edfb38b4b1590f4e891b3611977a987ff99.slab"
-    },
-    {
       "id": "ecb53f90fabc97a6821f",
       "name": "jasmine_senual",
       "tier": "original",
@@ -212,5 +202,5 @@
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/14809bc8aab972859e355473e9f34ebf9ea2287cb6ae0835f5fbbb55669aa429.slab"
     }
   ],
-  "updated": 1793678174
+  "updated": 1793678195
 }
