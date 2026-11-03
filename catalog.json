@@ -132,16 +132,6 @@
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/2cd624da6f6d63b907c35022f61180f088e09ada3ba7157edd30f2aacccb3392.slab"
     },
     {
-      "id": "c3c67bf139108cb270a6",
-      "name": "nude_female_police",
-      "tier": "original",
-      "sha256": "728acfb386958523496d1f0605687365f0bd42091667586c606b046d166b1bfb",
-      "bytes": 32673684,
-      "triangles": 993294,
-      "format": "slab1",
-      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/728acfb386958523496d1f0605687365f0bd42091667586c606b046d166b1bfb.slab"
-    },
-    {
       "id": "9179550b7297c8ab0137",
       "name": "sexy_redhead_jumping_woman",
       "tier": "original",
@@ -192,5 +182,5 @@
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/14809bc8aab972859e355473e9f34ebf9ea2287cb6ae0835f5fbbb55669aa429.slab"
     }
   ],
-  "updated": 1793678229
+  "updated": 1793678240
 }
