@@ -122,16 +122,6 @@
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/ecbe6fbc5d8fd4c499aa02085ccb48c3ec645c2057ce9e0f6f43d93123b98a70.slab"
     },
     {
-      "id": "9ff23c99d580d8a3d5c2",
-      "name": "chun_li_real",
-      "tier": "original",
-      "sha256": "2cd624da6f6d63b907c35022f61180f088e09ada3ba7157edd30f2aacccb3392",
-      "bytes": 49873064,
-      "triangles": 615116,
-      "format": "slab1",
-      "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/2cd624da6f6d63b907c35022f61180f088e09ada3ba7157edd30f2aacccb3392.slab"
-    },
-    {
       "id": "9179550b7297c8ab0137",
       "name": "sexy_redhead_jumping_woman",
       "tier": "original",
@@ -182,5 +172,5 @@
       "url": "https://github.com/SZB2000/Education-3D-Models/releases/download/models-v1/14809bc8aab972859e355473e9f34ebf9ea2287cb6ae0835f5fbbb55669aa429.slab"
     }
   ],
-  "updated": 1793678240
+  "updated": 1793678252
 }
